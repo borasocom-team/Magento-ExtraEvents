@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Boraso_ExtraEvents>
-            <version>0.2.0</version>
+            <version>0.2.1</version>
         </Boraso_ExtraEvents>
     </modules>
     <global>
@@ -10,7 +10,6 @@
             <catalogrule>
                 <rewrite>
                     <observer>Boraso_ExtraEvents_Model_Mage_CatalogRule_Observer</observer>
-                    <rule_condition_product>Boraso_ExtraEvents_Model_Mage_CatalogRule_Rule_Condition_Product</rule_condition_product>
                 </rewrite>
             </catalogrule>
         </models>
